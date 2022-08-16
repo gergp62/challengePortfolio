@@ -1,0 +1,95 @@
+
+.container .navbar{
+width: 100%;
+
+}
+
+.container-fluid{
+    display: flex;
+    justify-content:center;
+}
+
+.btn {
+    margin-left: 2%;
+}
+.menu__list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+.menu__list__item{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 85%;
+    
+}
+
+.title__profile{
+  position:absolute;  
+  border-radius: 75vw;
+  max-width: 35%;
+  max-height: 35%;
+}
+
+.title__bio{
+    text-align: center;
+}
+.about__title{
+    text-align: center;
+    font-family: Pacifico, sans-serif;
+}
+
+.fondoHeather{
+    background-image: cover;
+    width: 100%;
+}
+
+.img-back{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    justify-content: flex-end;
+
+}
+
+.progress{
+    height: 3rem;
+    margin: 1.5rem;
+
+}
+@keyframes expand {
+    from {width:0%;}
+    to {}
+  }
+
+.progress-bar{
+    animation-name:expand;
+    animation-duration:5s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in;
+    font-size: 16px;
+    text-align: left;
+  }
+
+.card-body{
+    border:none;
+}
+
+
+
+
+
+
+
+
+#firma {
+    text-align: center;
+}
