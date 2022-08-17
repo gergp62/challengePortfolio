@@ -77,11 +77,13 @@ width: 100%;
     animation-timing-function: ease-in;
     font-size: 16px;
     text-align: left;
+    font-family: Shojumaru, sans-serif;
   }
 
 .card-body{
     border:none;
 }
+
 
 
 
