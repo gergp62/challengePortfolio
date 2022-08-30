@@ -84,8 +84,11 @@ width: 100%;
     border:none;
 }
 
-.card{
-    display:inline-block
+.flexible{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
     
 }
 
