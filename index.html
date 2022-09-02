@@ -102,7 +102,7 @@
                         
                             <div class="progress">
                                 <h2><i class="fa-brands fa-html5"></i></h2>
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">HTML 5</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">HTML 5</div>
                           
                             </div>
                                            
@@ -196,7 +196,7 @@
                     <div class="card mb-3" style="max-width: 100%;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="assets/aluraoracle.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="assets/aluraoracle.jpg" class="img-fluid rounded-start" alt="logo oracle & alura">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
@@ -273,7 +273,7 @@
         
             <!-- Sección de Experiencia Profesional/Proyectos-->
             <section class="experience" id="xp">
-              <h2 class="experience__section__title" >Experiencia Profesional</h2>
+              <h2 class="experience__section__title mb-3" >Experiencia Profesional</h2>
               
                 <div class="card_experiencia flexible ">
                     <div class="card text-bg-light mb-3 " style="width: 18rem;">
@@ -303,10 +303,10 @@
                     </div>
             
                     <div class="card text-bg-light mb-3 " style="width: 18rem;">
-                      <img src=".." class="card-img-top" alt="captura de pantalla de ..">
+                      <img src="assets/portfolio.png" class="card-img-top" alt="captura de pantalla de ..">
                       <div class="card-body">
-                        <h5 class="card-title">Calculadora</h5>
-                        <p class="card-text">Calculadora realizada con Angular y Bootstrap</p>
+                        <h5 class="card-title">Portfolio</h5>
+                        <p class="card-text">Porfolio personal diseñado como trabajo practico del programa Oracle One</p>
                       </div>
                       
                       <div class="card-body">
@@ -315,18 +315,7 @@
                       </div>
                     </div>
             
-                    <div class="card text-bg-light mb-3 " style="width: 18rem;">
-                      <img src=".." class="card-img-top" alt="captura de pantalla de ..">
-                      <div class="card-body">
-                        <h5 class="card-title">Calculadora</h5>
-                        <p class="card-text">Calculadora realizada con Angular y Bootstrap</p>
-                      </div>
-                      
-                      <div class="card-body">
-                        <a href="#" class="card-link">Link a la web</a>
-                        <a href="#" class="card-link">Repo en GitHub</a>
-                      </div>
-                    </div>
+                    
                </div>
               
                 
@@ -375,20 +364,25 @@
                 <!-- Sección de Contacto -->
                 <section class="formcontato" id="contacto">
                     <div  class="formcontato__contacto">
-                        <div class="formcontato--esquerda">
-                            <img class="formcontato__img" src="assets\contact_image.png">
-                        </div>
+                        
                         <div class="formcontato__text">
                             <h2 class="formcontato__title">Contacto</h2>
                             <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                             <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                            <form class="formcontato__form" name="form" action="https://formsubmit.co/germangp62@gmail.com" method="POST">
-                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
-                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
-                                <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required>
-                                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
-                                <button type="submit" class="formcontato__botao">Enviar mensaje</button>
-                                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                            
+                        </div>
+                        <div class="formulario_imagen">
+                            
+                          <div class="formcontato--esquerda">
+                            <img class="formcontato__img" src="assets/Telephone-High-Quality-PNG.png">
+                          
+                            <form class="form mb-3" name="form" action="https://formsubmit.co/germangp62@gmail.com" method="POST">
+                                <input class="form-control col-auto mb-3 shadow" type="text" name="nombre" placeholder="Nombre" required>
+                                <input class="form-control col-auto mb-3 shadow" type="email" name="email" placeholder="E-mail" required>
+                                <input class="form-control col-auto mb-3 shadow" type="text" name="asunto" placeholder="Asunto" required>
+                                <textarea class="form-control col-auto mb-3 shadow" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
+                                <button type="submit" class="btn btn-primary col-auto mb-3">Enviar mensaje</button>
+                                <!--<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">-->
                                 <input type="hidden" name="_captcha" value="false">
                             </form>
                         </div>

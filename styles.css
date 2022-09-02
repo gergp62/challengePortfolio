@@ -92,6 +92,28 @@ width: 100%;
     
 }
 
+.form {
+    margin: 5%;
+    width: 40%;   /* Sin ancho no podemos centrar el formulario */
+    padding: 2px; /* separamos los bordes del form del resto de elementos */
+    border-radius: 10px; /* Redondeamos los bordes del form */
+ }
+
+ .formcontato--esquerda{
+    display: flex;
+    justify-content: flex-end;
+ }
+ .formcontato__text{
+    font-family: Pacifico, sans-serif;
+ }
+ .formcontato__img{
+    width: 40%;
+    height:40%;
+    padding-top: 2rem;
+ }
+ .form-control{
+    padding: 2px;
+ }
 
 
 
